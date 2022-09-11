@@ -1,0 +1,67 @@
+
+/*SYNTAX
+	selector{
+		property:value;
+	}
+selector:
+	universal selector-*--> targets all elements
+*/	
+*{
+	font-family:"Roboto", sans-serif;
+}
+
+h1,h2{
+	font-family:"Montserrat", sans-serif;
+}
+
+img{
+	height: 250px;
+	width: 250px;
+	border: 5px solid blue;
+	border-radius: 100%;
+}
+
+#landing{
+	/*vh - viewport height depends on the height of the user monitor*/
+	height: 80vh;
+	/*Display:flex -  allwows us to align th e elements horizontally and veritcally*/
+	display: flex;
+	/*alighns them vertically*/
+	flex-direction: column; 
+	/*aligns horizontally*/
+	align-items: center;
+	/*aligns vertically*/
+	justify-content: center;
+}
+
+#gallery{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 90vh;
+	border-radius: 6px;
+	color: #fff08d;
+}
+
+/*removes bullets*/
+ul{
+	list-style: none;
+	padding: 0; 
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+h2{
+	color: #007bff;
+}
+
+.tools{
+	border: 5px solid #f2f2f2;
+	height: 200px;
+	width: 75%;
+	margin: 20px;
+	padding: 25px;
+}
